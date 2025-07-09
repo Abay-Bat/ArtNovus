@@ -40,7 +40,7 @@ const Hero = () => {
             Ремонт под ключ. 3D-дизайн, снабжение, полный контроль. Сервис №1 в
             городе!
           </p>
-          <Button href="/pricing" white>
+          <Button href="#pricing" white>
             Начать!
           </Button>
         </div>
