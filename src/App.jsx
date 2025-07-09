@@ -7,7 +7,7 @@ import Collaboration from "./components/Collaboration";
 import Pricing from "./components/Pricing";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
-import NotFound from "./components/NtFound";
+import NotFound from "./components/NotFound";
 
 const MainLayout = () => (
   <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
