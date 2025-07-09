@@ -59,15 +59,9 @@ export const navigation = [
     url: "#team",
   },
   {
-    id: "4",
-    title: "Создать аккаунт", // New account
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Войти", // Sign in
-    url: "#login",
+    id: "3",
+    title: "каталог", // New account
+    url: "https://drive.google.com/drive/folders/1mUviyJ2SKkbP1FG3auA9PgitD9xxxyHK?hl=ru",
     onlyMobile: true,
   },
 ];
