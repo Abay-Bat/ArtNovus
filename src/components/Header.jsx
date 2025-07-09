@@ -80,15 +80,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-gray-500
-            transition-colors hover:text-white lg:block"
+ 
+        <Button
+          className="hidden lg:flex"
+          href="https://drive.google.com/drive/folders/1mUviyJ2SKkbP1FG3auA9PgitD9xxxyHK?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Создать аккаунт
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Войти
+          Каталог
         </Button>
 
         <Button
