@@ -39,9 +39,11 @@ const Pricing = () => {
         </div>
 
         <div className="flex justify-center mt-10">
-          <a
+           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="https://wa.me/77477871077"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Подробнее
           </a>
