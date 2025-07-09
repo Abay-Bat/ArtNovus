@@ -1,7 +1,6 @@
-// ./components/Team.jsx
-// import React from "react";
-// import samatImg from "../assets/team/samat.jpg"; // Update with real image paths
-// import tolegenImg from "../assets/team/tolegen.jpg";
+import React from "react";
+import samatImg from "../assets/hero/samat.jpg"; // Update with real image paths
+import tolegenImg from "../assets/hero/tolegen.jpg";
 
 const Team = () => {
   return (
@@ -12,7 +11,7 @@ const Team = () => {
         {/* Samat */}
         <div className="bg-n-8 border border-n-6 p-4 rounded-2xl w-full sm:w-1/2">
           <img
-            // src={samatImg}
+            src={samatImg}
             alt="Samat Berikbol"
             className="w-20 h-20 mx-auto mb-3 rounded-full object-cover"
           />
@@ -22,19 +21,19 @@ const Team = () => {
             <p>
               📞{" "}
               <a
-                href="tel:+77771234567"
+                href="tel:+77072377070"
                 className="hover:underline text-color-1"
               >
-                +7 (777) 123-4567
+                +7 (707) 237-7070
               </a>
             </p>
             <p>
               📧{" "}
               <a
-                href="mailto:samat@example.com"
+                href="mailto:berikbol.samat.21@mail.ru"
                 className="hover:underline text-color-1"
               >
-                samat@example.com
+                berikbol.samat.21@mail.ru
               </a>
             </p>
             <p>
@@ -45,7 +44,7 @@ const Team = () => {
                 rel="noopener noreferrer"
                 className="hover:underline text-color-1"
               >
-                @samat_berikbol
+                @samat_trd
               </a>
             </p>
           </div>
@@ -54,7 +53,7 @@ const Team = () => {
         {/* Tolegen */}
         <div className="bg-n-8 border border-n-6 p-4 rounded-2xl w-full sm:w-1/2">
           <img
-            // src={tolegenImg}
+            src={tolegenImg}
             alt="Tolegen Yerzhan"
             className="w-20 h-20 mx-auto mb-3 rounded-full object-cover"
           />
@@ -64,30 +63,30 @@ const Team = () => {
             <p>
               📞{" "}
               <a
-                href="tel:+77779876543"
+                href="tel:+77477871077"
                 className="hover:underline text-color-1"
               >
-                +7 (777) 987-6543
+                +7 (747) 787-1077
               </a>
             </p>
             <p>
               📧{" "}
               <a
-                href="mailto:tolegen@example.com"
+                href="mailto:Yerzhan351@gmail.com"
                 className="hover:underline text-color-1"
               >
-                tolegen@example.com
+                Yerzhan351@gmail.com
               </a>
             </p>
             <p>
               📸{" "}
               <a
-                href="https://instagram.com/tolegen_yerzhan"
+                href="https://www.instagram.com/tolegen_construct?igsh=MW1zMGhuZW1hMXJudQ%3D%3D&utm_source=qr "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline text-color-1"
               >
-                @tolegen_yerzhan
+                @tolegen_construct
               </a>
             </p>
           </div>
