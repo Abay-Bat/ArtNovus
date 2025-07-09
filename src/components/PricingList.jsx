@@ -16,7 +16,6 @@ const PricingList = () => {
             {item.description}
           </p>
 
-          {/* Price block optimized for large number formatting */}
           <div className="flex items-center justify-center h-[4rem] mb-6">
             {item.price && (
               <div className="text-xl font-semibold text-center text-n-1 whitespace-pre-line leading-snug">
@@ -28,18 +27,28 @@ const PricingList = () => {
           <div className="mb-6">
             <Button
               className="w-full"
-              href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+              href={
+                item.price
+                  ? "https://drive.google.com/file/d/10KHZZyaKXTaKj183odryBl3dt2KSbFyT/view?usp=sharing"
+                  : "https://wa.me/77477871077"
+              }
               white={!!item.price}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {item.price ? "Узнать больше" : "Связаться с нами"}
             </Button>
 
-            <a
-              href="mailto:contact@jsmastery.pro"
-              className="block mt-2 text-xs text-n-1/40 text-center italic blur-[0.3px] hover:text-n-1/70 transition"
-            >
-              Связаться с нами
-            </a>
+            {!item.price && (
+              <a
+                href="https://wa.me/77477871077"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-2 text-xs text-n-1/40 text-center italic blur-[0.3px] hover:text-n-1/70 transition"
+              >
+                Связаться с нами
+              </a>
+            )}
           </div>
 
           <ul>
