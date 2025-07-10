@@ -45,7 +45,7 @@ const Pricing = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Подробнее
+            Подробнее на WhatsApp 
           </a>
         </div>
       </div>
