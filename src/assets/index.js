@@ -79,6 +79,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import whatsapp_gray from "./socials/whatsapp_gray.png";
 
 export {
   brainwave,
@@ -154,4 +155,5 @@ export {
   instagram,
   telegram,
   twitter,
+  whatsapp_gray,
 };
