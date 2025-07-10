@@ -39,6 +39,7 @@ import {
   miro,
   trello,
   whatsapp,
+  whatsapp_gray
 } from "../assets";
 
 export const navigation = [
