@@ -61,8 +61,8 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "каталог", // New account
-    url: "https://drive.google.com/drive/folders/1mUviyJ2SKkbP1FG3auA9PgitD9xxxyHK?hl=ru",
+    title: "instagram", 
+    url: "https://www.instagram.com/artnovus_kz?igsh=aHJxdW54MXRhdmMw&utm_source=qr",
     onlyMobile: true,
   },
 ];
