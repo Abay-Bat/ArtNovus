@@ -83,11 +83,11 @@ const Header = () => {
  
         <Button
           className="hidden lg:flex"
-          href="https://drive.google.com/drive/folders/1mUviyJ2SKkbP1FG3auA9PgitD9xxxyHK?usp=drive_link"
+          href="https://www.instagram.com/artnovus_kz?igsh=aHJxdW54MXRhdmMw&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Каталог
+          instagram
         </Button>
 
         <Button
