@@ -275,7 +275,7 @@ export const socials = [
   {
     id: "1",
     title: "WhatsApp",
-    iconUrl: telegram, // If this is still a Telegram icon, update it to a WhatsApp icon if available
+    iconUrl: whatsapp_gray, // If this is still a Telegram icon, update it to a WhatsApp icon if available
     url: "https://wa.me/77000606290",
   },
 ];
